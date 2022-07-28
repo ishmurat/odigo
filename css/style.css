@@ -636,6 +636,7 @@ img{
 .search-form__info{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 153px;
 }
 .search-form__field{
     width: 297px;
@@ -856,4 +857,85 @@ img{
 }
 
 /* Tours styles end */
+/* Top styles start */
+.top {
+    margin-bottom: 86px;
+}
 
+.top__title {
+    margin-bottom: 54px;
+}
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 57px;
+}
+.top__card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 58px;
+}
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__card-thumb {
+}
+.top_card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 25px 16px;
+}
+.top_card-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin: 0 auto 0 0;
+}
+.top__card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-right: 20px;
+    background: url(../img/heard.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top__card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-right: 23px;
+    background: url(../img/comment.svg) no-repeat right;
+}
+.top__card_desk {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+.top__card-more {
+    width: 118px;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #006DFE;
+    color: white;
+    text-decoration: none;
+    padding: 12px 19px;
+    margin: auto 0 0 0;
+}
+.top__card-more:hover, .top__card-more:focus, .top__card-more:active{
+    background-color: #0011fb;
+}
+
+/* Top styles end */
